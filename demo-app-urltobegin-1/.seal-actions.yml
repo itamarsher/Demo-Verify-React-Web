@@ -1,0 +1,36 @@
+meta:
+  schema-version: 0.1.0
+  created-on: "2024-02-12T12:25:06Z"
+  cli-version: 0.2.0
+projects:
+  itamarsher-demo-verify-react-web-demo-app-urltobegin-1-package-lock.json:
+    targets:
+      - package.json
+    manager:
+      ecosystem: node
+      name: npm
+      version: "9"
+    overrides:
+      nth-check:
+        1.0.2:
+          use: 1.0.2-sp1
+      webpack:
+        5.75.0:
+          use: 5.75.0-sp1
+      semver:
+        7.3.8:
+          use: 7.3.8-sp1
+        6.3.0:
+          use: 6.3.0-sp1
+      word-wrap:
+        1.2.3:
+          use: 1.2.3-sp1
+      tough-cookie:
+        4.1.2:
+          use: 4.1.2-sp1
+      postcss:
+        7.0.39:
+          use: 7.0.39-sp1
+      follow-redirects:
+        1.15.2:
+          use: 1.15.2-sp1
